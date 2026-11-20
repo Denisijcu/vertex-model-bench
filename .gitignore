@@ -1,0 +1,62 @@
+# Manuscrito del libro y archivos pendientes de borrar: nunca al repo
+libro/
+_to_delete/
+
+# Python / FastAPI (vertex-model-bench-api/)
+vertex-model-bench-api/__pycache__/
+vertex-model-bench-api/**/__pycache__/
+vertex-model-bench-api/**/*.py[cod]
+vertex-model-bench-api/**/*$py.class
+vertex-model-bench-api/.venv/
+vertex-model-bench-api/venv/
+vertex-model-bench-api/ENV/
+vertex-model-bench-api/.pytest_cache/
+vertex-model-bench-api/.coverage
+vertex-model-bench-api/.mypy_cache/
+vertex-model-bench-api/.ruff_cache/
+
+# Angular / Node (vertex-model-bench-ui/)
+vertex-model-bench-ui/node_modules/
+vertex-model-bench-ui/.pnp
+vertex-model-bench-ui/.pnp.js
+vertex-model-bench-ui/dist/
+vertex-model-bench-ui/tmp/
+vertex-model-bench-ui/.angular/cache/
+vertex-model-bench-ui/out-tsc/
+vertex-model-bench-ui/coverage/
+vertex-model-bench-ui/playwright-report/
+vertex-model-bench-ui/test-results/
+vertex-model-bench-ui/npm-debug.log*
+vertex-model-bench-ui/yarn-debug.log*
+vertex-model-bench-ui/yarn-error.log*
+vertex-model-bench-ui/pnpm-debug.log*
+
+# Environment & local overrides
+.env
+.env.*
+!.env.example
+vertex-model-bench-api/.env
+vertex-model-bench-api/.env.*
+!vertex-model-bench-api/.env.example
+vertex-model-bench-ui/.env
+vertex-model-bench-ui/.env.local
+vertex-model-bench-ui/*.local
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

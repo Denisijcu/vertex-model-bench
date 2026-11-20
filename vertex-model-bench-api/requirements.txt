@@ -1,0 +1,7 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+httpx>=0.27.0
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+# Opcional: valida que la jugada SAN sea legal en el FEN. Sin él se usa solo regex.
+chess>=1.10.0
